@@ -16,7 +16,7 @@
   "scripts": {
     "start": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js start",
     "build": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js build",
-    "lint": "eslint .",
+    "lint": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js eslint .",
     "test": "NODE_ENV=production node_modules/react-scripts/bin/react-scripts.js test ",
     "eject": "react-scripts eject",
     "test:e2e": "cypress open"
